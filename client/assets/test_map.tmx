@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="15" height="8" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="CampJam12 - Editor Tiles" tilewidth="64" tileheight="64">
+  <image source="tiles_editor.png" width="64" height="256"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="1"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="type" value="2"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="type" value="3"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="15" height="8">
+  <data encoding="base64" compression="zlib">
+   eJydj8EKACAIQ3X6/99chwKRadJhMGFvqomIHSmRbyHMVgghr8R37M160TNl8+0YsCBc7OtY9ucvi+RfLIT/nPcuAtMBEQ==
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="CampJam '12 Client">
+    <configurations>
+      <configuration name="CampJam '12 Client" pure-as="true" main-class="Game" output-file="Main.swf" output-folder="$MODULE_DIR$/out/production/CampJam '12 Client" use-html-wrapper="true" wrapper-template-path="$MODULE_DIR$/html-template">
+        <dependencies target-player="10.2">
+          <entries>
+            <entry library-id="77491c26-de83-4238-8b69-53ce7e3490e1">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="AS3 Signals" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="MonsterDebugger" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="PlayerIO" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="Facebook Graph API (Web)" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="17f19958-894d-4aa5-b68c-aec1488e3501">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="TweenLite" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="flexsdk" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="flexsdk" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Asset Library" level="project" />
+    <orderEntry type="library" name="Asset Library" level="project" />
+    <orderEntry type="module-library">
+      <library name="Asset Library">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/asset_library.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library type="flex">
+        <properties id="77491c26-de83-4238-8b69-53ce7e3490e1" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/asset_library.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="AS3 Signals" level="project" />
+    <orderEntry type="library" name="MonsterDebugger" level="project" />
+    <orderEntry type="library" name="PlayerIO" level="project" />
+    <orderEntry type="library" name="Facebook Graph API (Web)" level="project" />
+    <orderEntry type="module-library">
+      <library name="unit_library">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/unit_library.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library type="flex">
+        <properties id="17f19958-894d-4aa5-b68c-aec1488e3501" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/unit_library.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="TweenLite" level="application" />
+  </component>
+</module>
+

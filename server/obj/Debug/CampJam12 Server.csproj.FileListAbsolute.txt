@@ -1,0 +1,8 @@
+D:\Projects\CampJam12\server\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\CampJam12\server\bin\Debug\ProjectBugServer.dll
+D:\Projects\CampJam12\server\bin\Debug\ProjectBugServer.pdb
+D:\Projects\CampJam12\server\bin\Debug\Player.IO Development Server.exe
+D:\Projects\CampJam12\server\bin\Debug\Player.IO GameLibrary.dll
+D:\Projects\CampJam12\server\bin\Debug\Player.IO GameLibrary.xml
+D:\Projects\CampJam12\server\obj\Debug\ProjectBugServer.dll
+D:\Projects\CampJam12\server\obj\Debug\ProjectBugServer.pdb

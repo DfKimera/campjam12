@@ -1,0 +1,11 @@
+[OKK] - Live facebook avatars
+[OKK] - Turns are not restricting the opponent from movin
+[OKK]- There's an issue with movement directions on the guest (only moves backwards, sometimes even on diagonal; distance calc should be dx + dy)
+
+- Review client validation rules for ranges, they seem to be a bit off
+[Asai] - Use a few visual cues to indicate whose turn is it and when a turn is over/times out
+- Add validation rules in the server
+- Add combat events and overlay
+- Add new interface assets
+[Asai] - Tooltip widget for the portraits
+- Cross portraits when the unit is dead

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="PlayerIO" type="flex">
+    <CLASSES>
+      <root url="file://D:/Resources/PlayerIO" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="TweenLite" type="flex">
+    <CLASSES />
+    <JAVADOC>
+      <root url="file://D:/Resources/TweenLite/greensock-as3/docs" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://D:/Resources/TweenLite/greensock-as3" />
+    </SOURCES>
+  </library>
+</component>

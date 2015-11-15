@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Facebook Graph API (Web)" type="flex">
+    <CLASSES>
+      <root url="jar://D:/Resources/AS3FacebookAPI/GraphAPI_Web_1_8_1.swc!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

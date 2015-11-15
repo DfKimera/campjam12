@@ -1,0 +1,44 @@
+RewriteEngine On
+Options +FollowSymLinks
+
+RewriteRule ^index.php(.*)$ - [L,QSA]
+
+RewriteRule ^app/modules/(.*)$ - [L,QSA]
+RewriteRule ^data/(.*)$ - [L,QSA]
+RewriteRule ^assets/(.*)$ - [L,QSA]
+
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_FILENAME} !-f
+RewriteRule favicon.ico$ assets/favicon.ico [L,QSA]
+
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_FILENAME} !-f
+RewriteRule appmod/(.*)$ app/modules/$1 [L,QSA]
+
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_FILENAME} !-f
+RewriteRule appassets/(.*)$ assets/$1 [L,QSA]
+
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_FILENAME} !-f
+RewriteRule images/(.*)$ assets/images/$1 [L,QSA]
+
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_FILENAME} !-f
+RewriteRule data/(.*)$ data/$1 [L,QSA]
+
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_FILENAME} !-f
+RewriteRule js/(.*)$ assets/js/$1 [L,QSA]
+
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_FILENAME} !-f
+RewriteRule css/(.*)$ assets/css/$1 [L,QSA]
+
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_FILENAME} !-f
+RewriteRule fonts/(.*)$ assets/fonts/$1 [L,QSA]
+
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)[/]?$ index.php?DIESEL_ROUTE=$1 [L,QSA]
